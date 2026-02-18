@@ -115,8 +115,18 @@ $sequence "hunterland" {
 $sequence "walk" {
 	"hunter_anims\walk"
 	ACT_WALK 1
-	{ event 1100 0 "step" }
-	{ event 1100 11 "step" }
+	{ event 1100 15 "step" }
+	{ event 1100 34 "step" }
+	{ event 1100 50 "step" }
+	{ event 1100 67 "step" }
+	{ event 1100 83 "step" }
+	{ event 1100 100 "step" }
+	{ event 1100 117 "step" }
+	{ event 1100 135 "step" }
+	{ event 1100 152 "step" }
+	{ event 1100 170 "step" }
+	{ event 1100 183 "step" }
+	{ event 1100 200 "step" }
 	fps 30
 	loop
 	LX
