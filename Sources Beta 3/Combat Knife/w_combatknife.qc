@@ -1,17 +1,14 @@
 // Created by Crowbar 0.74
 
-$modelname "w_beretta.mdl"
+$modelname "w_combatknife.mdl"
 
-$model "body" "w_beretta"
+$model "body" "w_knife"
 
 $surfaceprop "weapon"
 
 $contents "solid"
 
-$cdmaterials "models\vj_recb\weapons\beretta\"
-
-$attachment "muzzle" "joint1" -1.15 -0.67 -14.00 rotate 90 -180 0
-$attachment "shell" "joint1" -1.50 0.00 -7.20 rotate 0 90 -90
+$cdmaterials "models\vj_recb\weapons\combatknife\"
 
 $illumposition 0 0 0 "joint1"
 
@@ -22,13 +19,13 @@ $bbox -8 -8 0 8 8 5
 $hbox 0 "joint1" -1.88 -1.69 -6.83 6.09 0.44 7.49
 
 $sequence "idle" {
-	"w_beretta_anims\idle"
+	"w_combatknife_anims\idle"
 	ACT_IDLE 1
 	fps 2
 	loop
 }
 
-$collisionmodel "w_beretta"
+$collisionmodel "w_knife"
 {
 	$mass 1
 	$inertia 1
